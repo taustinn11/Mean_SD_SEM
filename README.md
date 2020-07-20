@@ -20,7 +20,7 @@ SEM = $\frac{SD}{\sqrt{N}}$
 
 The SD and SEM are related by the inverse of the square root of the number of observations N. While both the accuracy of the SD will increase and SEM will approach zero as N increases, SEM will approach zero much more quickly than the SD will approach its true value. This is apparent in **figure** 1 below.
 
-![](Mean_sd_sem.png)
+![.](Mean_sd_sem.png)
 **Fig 1: Random parameter estimates over different sample sizes from 2-50**
 
 True mean = 100, true SD = 25
