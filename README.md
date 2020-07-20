@@ -12,11 +12,11 @@ Standard deviation (SD) and standard error of the mean (SEM) are two statistical
 
 The SEM can be derived from the SD. Consider a sample S made of up several observations of continuous data. The estimated standard deviation of the population based on S is:
 
-SD = $\sqrt{\frac{1}{N-1}\sum_{i=1}^n (x_i - \bar{x})^2}$
+SD = $ \sqrt{\frac{1}{N-1}\sum_{i=1}^n (x_i - \bar{x})^2} $
 
 The SEM for the same sample S is:
 
-SEM = $\frac{SD}{\sqrt{N}}$
+SEM = $ \frac{SD}{\sqrt{N}} $
 
 The SD and SEM are related by the inverse of the square root of the number of observations N. While both the accuracy of the SD will increase and SEM will approach zero as N increases, SEM will approach zero much more quickly than the SD will approach its true value. This is apparent in **figure** 1 below.
 
@@ -29,7 +29,7 @@ True mean = 100, true SD = 25
 
 Despite independent definitions and prescribed applications, these two measures are often put at odds due to misuse. Frequently, researchers will present charts using mean ± SEM when 1) the data would be more aptly charted using mean ± SD and 2) when it would be more appropriate to describe the data in terms of its standard deviation [@Jaykaran2010;@Barde2012]. This misuse has been identified in several fields of biological research including cardiovascular biology [@Wullschleger2014], anesthesia [@Avram1985;@Nagele2003], tropical medicine and hygiene [@Cruess1989], arthritis and rheumatism [@Felson1984], infectious disease [@MacArthur1984], and psychiatry [@White1979].
 
-This is likely due to the fact that errorbars drawn from SEM are much smaller than those of SD. This is evident in **figure 1** which demonstrates how quickly the value of SEM decreases compared to SD. Rigorous and reproducible science requires that statistical methods are correctly and appropriately applied. Moreover, Jaykaran has proposed a change in the syntax of reporting mean and SD vs. mean and SEM to mean (SD) and mean $\pm$SEM to further prevent confusion [@Jaykaran2010]. 
+This is likely due to the fact that errorbars drawn from SEM are much smaller than those of SD. This is evident in **figure 1** which demonstrates how quickly the value of SEM decreases compared to SD. Rigorous and reproducible science requires that statistical methods are correctly and appropriately applied. Moreover, Jaykaran has proposed a change in the syntax of reporting mean and SD vs. mean and SEM to mean (SD) and mean ±SEM to further prevent confusion [@Jaykaran2010]. 
 
 ### Challenge
 
