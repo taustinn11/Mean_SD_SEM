@@ -1,7 +1,5 @@
----
-title: "A visual exploration of the differences between standard deviation and standard error of the mean as they relate to sample size"
-output: html_document
----
+## A visual exploration of the differences between standard deviation and standard error of the mean as they relate to sample size
+
 
 ### Premise
 I wrote this small report after completing a challenge issued by one of my professors and mentors, Dr. TJ Murphy (https://github.com/TJMurphy). The challenge, briefly, is to generate a plot illustrating the change in estimated mean, standard deviation (SD), and standard error of the mean (SEM) over several sample sizes. After first failing to solve this problem on my own, I came back to it later when he re-issued it to folks in the department of pharmacology. It serves as a straightforward exercise in R programming as well as an example of how differently SD and SEM behave. Moreover, it shows how ineffective using the “n = 3” approach, an unfortunate staple of biological research, truly is.
@@ -11,7 +9,7 @@ Standard deviation (SD) and standard error of the mean (SEM) are two statistical
 
 The SEM can be derived from the SD. Consider a sample S made of up several observations of continuous data. The estimated standard deviation of the population based on S is:
 
-SD = ![formula](https://render.githubusercontent.com/render/math?math=\sqrt{\frac{1}{N-1}\sum_{i=1}^n (x_i - \bar{x})^2})
+SD = ![formula](https://render.githubusercontent.com/render/math?math=\sqrt{\frac{1}{N-1}\sum_{i=1}^n%20(x_i%20-%20\bar{x})^2})
 
 The SEM for the same sample S is:
 
